@@ -3,7 +3,7 @@
 cd ../tools
 
 python train_net.py \
-    --dataset_name          publaynet-layout \
+    --dataset_name          publaynet \
     --json_annotation_train ../data/publaynet/annotations/annotations-train.json \
     --image_path_train      ../data/publaynet/raw/train \
     --json_annotation_val   ../data/publaynet/annotations-val.json \
