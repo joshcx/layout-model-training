@@ -8,7 +8,6 @@ python train_net.py \
     --image_path_train      ../data/publaynet/raw/train \
     --json_annotation_val   ../data/publaynet/annotations-val.json \
     --image_path_val        ../data/publaynet/raw/val \
-    --config-file           ../configs/publaynet/mask_rcnn_R_50_FPN_3x.yaml \
-    --resume \
-    OUTPUT_DIR  ../outputs/publaynet/mask_rcnn_R_50_FPN_3x/ \
+    --config-file           ../configs/publaynet/mask_rcnn_X_101_32x8d_FPN_3x.yaml \
+    OUTPUT_DIR  ../outputs/publaynet/mask_rcnn_X_101_32x8d_FPN_3x/ \
     SOLVER.IMS_PER_BATCH 2 
